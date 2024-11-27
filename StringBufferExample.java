@@ -13,3 +13,12 @@ public class StringBufferExample {
         System.out.println(sb); // Output: Hello, World!  
     }  
 }
+
+// String immutability in Java ensures:
+// Thread safety
+// Memory optimization (via the String Pool)
+// Security
+// Hash code consistency
+// Simplicity in design
+// If mutability is required, StringBuilder or StringBuffer can be used, providing a flexible alternative 
+// while keeping strings immutable for the majority of cases.
